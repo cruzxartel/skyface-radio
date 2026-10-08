@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101010">
+<meta name="description" content="Discover SkyFace — Nigerian Afrobeats, Afrosounds and Afro-fusion. Find official releases and listen on your preferred streaming platform.">
+<title>SkyFace Radio — Listen Everywhere</title>
+<style>
+:root{--bg:#0b0b0c;--panel:#151516;--panel2:#1d1d1f;--line:#303033;--text:#f6f3ee;--muted:#a5a1a0;--orange:#ff6a2a;--orange2:#ff9b55;--green:#b8f36b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% 0%,#3a190d 0,transparent 35%),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.5}
+a{color:inherit}.wrap{max-width:1120px;margin:auto;padding:0 22px}.topbar{display:flex;align-items:center;justify-content:space-between;padding:23px 0;border-bottom:1px solid #ffffff14}.brand{display:flex;gap:11px;align-items:center;text-decoration:none;font-weight:900;letter-spacing:.08em}.logo{width:37px;height:37px;border-radius:12px;background:linear-gradient(135deg,var(--orange),#a52a0a);display:grid;place-items:center;font-weight:1000;color:#130a06}.nav{display:flex;gap:20px;font-size:13px;color:var(--muted)}.nav a{text-decoration:none}.nav a:hover{color:white}
+.hero{padding:68px 0 48px;display:grid;grid-template-columns:1.3fr .7fr;gap:35px;align-items:center}.eyebrow{color:var(--orange2);font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase}.hero h1{font-size:clamp(42px,7vw,76px);line-height:.98;letter-spacing:-.065em;margin:16px 0}.hero h1 span{color:var(--orange)}.hero p{max-width:590px;color:#c5bfbb;font-size:17px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.btn{display:inline-flex;justify-content:center;align-items:center;gap:8px;padding:13px 17px;border-radius:12px;text-decoration:none;font-size:13px;font-weight:800;border:1px solid var(--line);cursor:pointer}.btn.primary{background:var(--orange);color:#180a04;border-color:var(--orange)}.btn.ghost{background:#ffffff08}.hero-art{min-height:300px;border:1px solid #ffffff17;border-radius:26px;overflow:hidden;position:relative;background:linear-gradient(145deg,#2a120a,#151515 60%,#351709);padding:25px;display:flex;flex-direction:column;justify-content:space-between;box-shadow:0 25px 90px #0008}.hero-art:before{content:"";position:absolute;width:240px;height:240px;border-radius:50%;right:-45px;top:25px;background:radial-gradient(circle at 35% 30%,#ffba73,#ff5e21 32%,#8c250d 68%,#230b05);filter:drop-shadow(0 0 42px #ff6a2a55)}.hero-art:after{content:"SF";position:absolute;right:15px;top:52px;font-size:100px;font-weight:1000;letter-spacing:-.12em;color:#1a0904;opacity:.75}.art-top,.art-bottom{position:relative;z-index:1}.art-top{font-size:11px;letter-spacing:.2em;font-weight:900;color:#ffd1b0}.art-bottom strong{display:block;font-size:31px;letter-spacing:-.05em}.art-bottom span{font-size:12px;color:#d5b8a9}.ticker{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}.chip{border:1px solid #ffffff20;border-radius:999px;padding:7px 11px;color:#d2ccc8;font-size:11px}
+.section{padding:35px 0 58px}.section-head{display:flex;justify-content:space-between;gap:18px;align-items:end;margin-bottom:22px}.section h2{font-size:clamp(26px,4vw,38px);letter-spacing:-.05em;margin:5px 0}.section-head p{margin:0;color:var(--muted);font-size:13px}.searchrow{display:flex;gap:12px;margin:22px 0}.searchrow input,.searchrow select{background:var(--panel);border:1px solid var(--line);color:var(--text);padding:13px 14px;border-radius:12px;font:inherit;outline:none}.searchrow input{flex:1;min-width:0}.searchrow input:focus,.searchrow select:focus{border-color:var(--orange)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.track{background:linear-gradient(145deg,#19191a,#111112);border:1px solid var(--line);border-radius:18px;padding:17px;min-width:0;transition:transform .18s,border-color .18s}.track:hover{transform:translateY(-3px);border-color:#8e492b}.tracktop{display:flex;gap:13px;align-items:center}.cover{width:64px;height:64px;flex-shrink:0;border-radius:12px;display:grid;place-items:center;background:linear-gradient(135deg,#ff9a4d,#70200c 70%);color:#1a0802;font-size:23px;font-weight:1000;letter-spacing:-.08em}.track:nth-child(3n+2) .cover{background:linear-gradient(135deg,#f6d2a4,#a74820 70%)}.track:nth-child(3n) .cover{background:linear-gradient(135deg,#f66b3a,#39120b 75%);color:#ffe2ce}.track h3{font-size:16px;margin:0 0 3px;letter-spacing:-.02em}.track .meta{color:var(--muted);font-size:11px}.tag{display:inline-block;color:#ffc39e;background:#ff6a2a17;border:1px solid #ff6a2a35;border-radius:7px;padding:3px 7px;font-size:10px;margin-top:9px}.platforms{display:flex;gap:7px;flex-wrap:wrap;margin-top:16px}.platforms a{font-size:11px;font-weight:750;text-decoration:none;border:1px solid #ffffff1a;background:#ffffff06;padding:8px 9px;border-radius:9px;color:#e7e1dc}.platforms a:hover{border-color:var(--orange);color:white}.platforms a:focus-visible,.btn:focus-visible{outline:2px solid var(--orange2);outline-offset:3px}.empty{display:none;color:var(--muted);padding:25px;border:1px dashed var(--line);border-radius:14px}
+.platform-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.platform{background:var(--panel);border:1px solid var(--line);border-radius:15px;padding:18px 14px;text-decoration:none;min-height:102px}.platform b{display:block;margin-bottom:5px}.platform span{color:var(--muted);font-size:11px}.platform:hover{border-color:var(--orange)}
+.promo{display:grid;grid-template-columns:1fr 1fr;gap:16px}.promo-card{padding:24px;border:1px solid var(--line);border-radius:20px;background:linear-gradient(140deg,#1b1b1c,#111)}.promo-card h3{margin:0 0 8px;font-size:21px}.promo-card p{color:var(--muted);font-size:13px;margin:0 0 17px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.stat{background:#ffffff07;border-radius:12px;padding:14px}.stat strong{display:block;font-size:25px;letter-spacing:-.04em}.stat span{color:var(--muted);font-size:10px}.note{color:var(--muted);font-size:11px;margin-top:12px}
+footer{border-top:1px solid #ffffff17;padding:27px 0 40px;color:var(--muted);font-size:12px}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.foot a{color:#ddd;text-decoration:none}
+@media(max-width:850px){.hero{grid-template-columns:1fr;padding-top:48px}.hero-art{min-height:220px}.grid{grid-template-columns:repeat(2,1fr)}.platform-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:560px){.wrap{padding:0 15px}.nav{gap:12px;font-size:11px}.nav a:nth-child(2){display:none}.hero{padding:40px 0 30px;gap:22px}.hero-art{min-height:190px}.hero-art:before{width:180px;height:180px}.hero-art:after{font-size:75px}.grid{grid-template-columns:1fr}.platform-grid{grid-template-columns:repeat(2,1fr)}.promo{grid-template-columns:1fr}.section-head{align-items:start;flex-direction:column}.searchrow{flex-direction:column}.searchrow select{width:100%}}
+</style>
+</head>
+<body>
+<header class="wrap topbar">
+  <a class="brand" href="#home" aria-label="SkyFace Radio home"><span class="logo">SF</span><span>SKYFACE <span style="color:var(--orange)">RADIO</span></span></a>
+  <nav class="nav"><a href="#music">Music library</a><a href="#platforms">Listen everywhere</a><a href="#about">About</a></nav>
+</header>
+<main>
+<section class="wrap hero" id="home">
+  <div>
+    <div class="eyebrow">Independent sound · Made in Gwags</div>
+    <h1>Press play.<br><span>Find your sound.</span></h1>
+    <p>Welcome to SkyFace Radio — a home for my Afrobeats, Afrosounds and real-life stories. Discover a song, choose your platform, and support the music where you listen.</p>
+    <div class="actions">
+      <a class="btn primary" href="#music">Explore the music <span aria-hidden="true">↘</span></a>
+      <a class="btn ghost" href="https://audiomack.com/skyface" target="_blank" rel="noopener noreferrer" data-platform="Audiomack" data-track="Artist profile">Listen on Audiomack ↗</a>
+    </div>
+    <div class="ticker"><span class="chip">Afrobeats</span><span class="chip">Afro-fusion</span><span class="chip">Raw storytelling</span><span class="chip">Independent artist</span></div>
+  </div>
+  <div class="hero-art" aria-label="SkyFace Radio visual artwork">
+    <div class="art-top">THE SOUND OF SKYFACE</div>
+    <div class="art-bottom"><strong>Listen with intent.</strong><span>One artist. Many stories. Your platform.</span></div>
+  </div>
+</section>
+
+<section class="wrap section" id="music">
+  <div class="section-head"><div><div class="eyebrow">The library</div><h2>Discover SkyFace</h2><p>Search a title, then choose a service to find the official release.</p></div></div>
+  <div class="searchrow"><input id="search" type="search" placeholder="Search songs, features, or moods…" aria-label="Search songs"><select id="filter" aria-label="Filter music"><option value="all">All releases</option><option value="single">Singles</option><option value="noface">NOFACE NOCASE era</option><option value="feature">Featured collaborations</option></select></div>
+  <div class="grid" id="tracks"></div><div class="empty" id="empty">No matching songs found. Try another title.</div>
+  <p class="note">Platform buttons search the service for the track when a verified song-specific link has not been added. Please choose the official SkyFace release in the results.</p>
+</section>
+
+<section class="wrap section" id="platforms">
+  <div class="section-head"><div><div class="eyebrow">Your choice</div><h2>Listen everywhere</h2><p>Choose your preferred streaming service.</p></div></div>
+  <div class="platform-grid">
+    <a class="platform" href="https://open.spotify.com/artist/1HmprmBGwRagMNPs7MnM6z" target="_blank" rel="noopener noreferrer" data-platform="Spotify" data-track="Artist profile"><b>Spotify ↗</b><span>Follow the artist</span></a>
+    <a class="platform" href="https://music.apple.com/ng/artist/skyface/1599973711" target="_blank" rel="noopener noreferrer" data-platform="Apple Music" data-track="Artist profile"><b>Apple Music ↗</b><span>Browse the catalog</span></a>
+    <a class="platform" href="https://audiomack.com/skyface" target="_blank" rel="noopener noreferrer" data-platform="Audiomack" data-track="Artist profile"><b>Audiomack ↗</b><span>Listen and follow</span></a>
+    <a class="platform" href="https://www.youtube.com/@skyfacemusic" target="_blank" rel="noopener noreferrer" data-platform="YouTube Music" data-track="Artist profile"><b>YouTube Music ↗</b><span>Music and videos</span></a>
+    <a class="platform" href="https://www.boomplay.com/artists/36626732" target="_blank" rel="noopener noreferrer" data-platform="Boomplay" data-track="Artist profile"><b>Boomplay ↗</b><span>Discover the catalog</span></a>
+    <a class="platform" href="https://www.deezer.com/en/artist/12090910" target="_blank" rel="noopener noreferrer" data-platform="Deezer" data-track="Artist profile"><b>Deezer ↗</b><span>Stream on Deezer</span></a>
+    <a class="platform" href="https://tidal.com/browse/artist/8588466" target="_blank" rel="noopener noreferrer" data-platform="TIDAL" data-track="Artist profile"><b>TIDAL ↗</b><span>Explore the artist</span></a>
+  </div>
+</section>
+
+<section class="wrap section" id="about">
+  <div class="promo">
+    <div class="promo-card"><div class="eyebrow">The mission</div><h3>Real listeners. Real support.</h3><p>This site is built to help fans discover music and open the official streaming services. It does not automate, inflate, or simulate plays.</p><a class="btn ghost" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Share SkyFace Radio ↗</a></div>
+    <div class="promo-card"><div class="eyebrow">Click tracking</div><h3>Understand what fans choose</h3><p>On this browser, link clicks are counted locally. For analytics across all visitors, connect a privacy-conscious analytics service before publishing.</p><div class="stats"><div class="stat"><strong id="totalClicks">0</strong><span>LOCAL CLICKS</span></div><div class="stat"><strong id="platformCount">0</strong><span>PLATFORMS CLICKED</span></div><div class="stat"><strong id="songCount">0</strong><span>SONG LINKS CLICKED</span></div></div><div class="actions"><button class="btn ghost" id="export">Export click log</button><button class="btn ghost" id="reset">Reset local stats</button></div><div class="note">Local stats are only on this device/browser. Export does not include personal information.</div></div>
+  </div>
+</section>
+</main>
+<footer><div class="wrap foot"><span>© <span id="year"></span> SkyFace Radio · Independent music from Nigeria.</span><span>Made for discovery — not artificial streams.</span></div></footer>
+<script>
+/*
+  BEFORE PUBLISHING:
+  1) Replace/verify artist profile URLs and add verified song-specific URLs in tracks below.
+  2) For site-wide analytics, create a GA4 property or use another privacy-friendly analytics service.
+     If using GA4, add the official Google tag snippet with your own measurement ID; don't paste secrets here.
+*/
+const PROFILE={
+ Spotify:"https://open.spotify.com/artist/1HmprmBGwRagMNPs7MnM6z",
+ "Apple Music":"https://music.apple.com/ng/artist/skyface/1599973711",
+ Audiomack:"https://audiomack.com/skyface",
+ "YouTube Music":"https://www.youtube.com/@skyfacemusic",
+ Boomplay:"https://www.boomplay.com/artists/36626732",
+ Deezer:"https://www.deezer.com/en/artist/12090910",
+ TIDAL:"https://tidal.com/browse/artist/8588466"
+};
+const tracks=[
+ {title:"Let Me Be",era:"single",tag:"Self-belief · Peace",features:"",apple:"https://music.apple.com/ng/album/let-me-be/6780391836?i=6780391837"},
+ {title:"Dey With Me (Raw Mix)",era:"single",tag:"Afrosounds · Raw mix",features:""},
+ {title:"Time No Dey",era:"single",tag:"Grind · Motivation",features:"Freaky Bad & Dr Preach"},
+ {title:"God Abeg",era:"single",tag:"Faith · Street reality",features:"Bokzman Rhythm"},
+ {title:"Bother Me",era:"single",tag:"Afropop · Reflection",features:""},
+ {title:"Fine Girl",era:"single",tag:"Afropop",features:"Chocolate_Soundboy, Emperor Rolo & Boy Blaze MPB"},
+ {title:"Cruise",era:"single",tag:"Afrobeats",features:"Pepsi, Chocolate_Soundboy & Eric"},
+ {title:"Call",era:"single",tag:"Afrobeats",features:"Chocolate_Soundboy"},
+ {title:"Gberede",era:"single",tag:"Afrobeats",features:"Pepsi & Nickey Stalker"},
+ {title:"No Love",era:"single",tag:"Real-life stories",features:""},
+ {title:"Let Me Be (Live Performance)",era:"single",tag:"Live performance",features:""},
+ {title:"Free My Mind",era:"noface",tag:"Inner peace · Reflection",features:""},
+ {title:"Nobody Cares",era:"noface",tag:"NOFACE NOCASE",features:"Chocolate_Soundboy"},
+ {title:"Bye To Poverty",era:"noface",tag:"NOFACE NOCASE",features:""},
+ {title:"BURST DOWN (Extended Version)",era:"noface",tag:"NOFACE NOCASE",features:""},
+ {title:"Wait Again",era:"noface",tag:"NOFACE NOCASE",features:"Dhaino & Freakybad"},
+ {title:"Gbesumomi",era:"noface",tag:"NOFACE NOCASE",features:"Dhaino"},
+ {title:"Kiri Koja",era:"single",tag:"Afrosounds",features:"Dhaino"},
+ {title:"Let Me Be",era:"feature",tag:"Song release",features:""}
+];
+const services=["Spotify","Apple Music","Audiomack","YouTube Music","Boomplay"];
+const el=id=>document.getElementById(id);
+function searchUrl(service,title){
+ const q=encodeURIComponent(title+" SkyFace");
+ if(service==="Spotify") return "https://open.spotify.com/search/"+q;
+ if(service==="Apple Music") return "https://music.apple.com/ng/search?term="+q;
+ if(service==="Audiomack") return "https://audiomack.com/search?q="+q;
+ if(service==="YouTube Music") return "https://music.youtube.com/search?q="+q;
+ if(service==="Boomplay") return "https://www.boomplay.com/search/"+q;
+ return PROFILE[service]||"#";
+}
+function safe(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+function render(){
+ const q=el("search").value.trim().toLowerCase(), f=el("filter").value;
+ const filtered=tracks.filter(t=>(f==="all"||t.era===f||(f==="feature"&&t.features))&&[t.title,t.tag,t.features].join(" ").toLowerCase().includes(q));
+ el("tracks").innerHTML=filtered.map((t,i)=>`<article class="track"><div class="tracktop"><div class="cover" aria-hidden="true">SF</div><div><h3>${safe(t.title)}</h3><div class="meta">${t.features?"ft. "+safe(t.features):"SkyFace"} · ${t.era==="noface"?"NOFACE NOCASE":"Release"}</div><span class="tag">${safe(t.tag)}</span></div></div><div class="platforms">${services.map(s=>{const url=(s==="Apple Music"&&t.apple)?t.apple:searchUrl(s,t.title);return `<a href="${url}" target="_blank" rel="noopener noreferrer" data-platform="${s}" data-track="${safe(t.title)}">${s} ↗</a>`}).join("")}</div></article>`).join("");
+ el("empty").style.display=filtered.length?"none":"block";
+}
+const STORE="skyfaceRadioClicksV1";
+function getLog(){try{return JSON.parse(localStorage.getItem(STORE)||"[]")}catch(e){return []}}
+function saveLog(log){try{localStorage.setItem(STORE,JSON.stringify(log))}catch(e){}}
+function refreshStats(){const log=getLog();el("totalClicks").textContent=log.length;el("platformCount").textContent=new Set(log.map(x=>x.platform)).size;el("songCount").textContent=log.filter(x=>x.track!=="Artist profile").length}
+document.addEventListener("click",e=>{
+ const a=e.target.closest("a[data-platform]");if(!a)return;
+ const log=getLog();log.push({time:new Date().toISOString(),platform:a.dataset.platform||"Unknown",track:a.dataset.track||"Unknown",destination:a.href});saveLog(log);refreshStats();
+ // Optional Google Analytics event, if gtag is installed and configured by the site owner.
+ if(typeof window.gtag==="function"){window.gtag("event","streaming_link_click",{platform:a.dataset.platform,track_title:a.dataset.track,link_url:a.href});}
+});
+el("search").addEventListener("input",render);el("filter").addEventListener("change",render);
+el("export").addEventListener("click",()=>{const rows=getLog();const csv=["timestamp,platform,track,destination",...rows.map(r=>[r.time,r.platform,r.track,r.destination].map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(","))].join("\r\n");const blob=new Blob([csv],{type:"text/csv;charset=utf-8;"});const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download="skyface-radio-clicks.csv";a.click();URL.revokeObjectURL(url);});
+el("reset").addEventListener("click",()=>{if(confirm("Clear click statistics saved in this browser?")){saveLog([]);refreshStats()}});
+el("year").textContent=new Date().getFullYear();render();refreshStats();
+</script>
+</body>
+</html>
