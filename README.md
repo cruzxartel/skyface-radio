@@ -21,4 +21,9 @@ To run this project locally:
 
 1. Clone the repository:
    ```bash
+
 git clone [https://github.com/cruzxartel/skyface-radio.git](https://github.com/cruzxartel/skyface-radio.git)
+## 🎤 About Skyface
+
+> "Skyface is a music artist and radio platform dedicated to showcasing emerging talent and broadcasting soundscapes globally."
+📖 **Full Bio:** Read the complete [Artist Biography & Discography](https://www.wiki.name.ng/artist/skyface/).
